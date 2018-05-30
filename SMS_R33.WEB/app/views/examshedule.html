@@ -1,0 +1,56 @@
+﻿<div ng-controller="examsheduleCtrl">
+    <div class="row">
+        <h3>Exam Shedule</h3>
+        <p>Select the Exam Year, term and class to get the Exam Shedule</p>
+        <hr />
+        <div class="col-md-8 col-md-offset-2">
+            <form>
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <div class="col-sm-4" style="padding-bottom:10px">
+                            <select class="form-control" ng-model="model.examTable.ExamYearId" ng-options="e.ExamYearId as e.ExamYearDate for e in model.examyears" ng-change="selectedEYId()" required>
+                                <option value="" disabled selected> Exam Year</option>
+                            </select>
+                        </div>
+
+                        <div class="col-sm-4" style="padding-bottom:10px">
+                            <select class="form-control" ng-model="model.examTable.ExamTermId" ng-options="e.ExamTermId as e.ExamTermName for e in model.target.examterms" ng-change="selectedETId()" required>
+                                <option value="" disabled selected>Exam Term</option>
+                            </select>
+                        </div>
+
+                        <div class="col-sm-4" style="padding-bottom:10px">
+                            <select class="form-control" ng-model="model.examTable.ClassId" ng-options="c.ClassId as c.ClassName for c in model.target.classes" ng-change="selectedCId()" required>
+                                <option value="" disabled selected>Class</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                </div>
+            </form>
+            <hr />
+            <div id="selectedES" style="visibility:hidden">
+                <h3>Selectd Exam Shedule </h3>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Subject</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="e in model.temp.examps">
+                            <td>{{e.ExamDate|date}}</td>
+                            <td>{{model.subjects[e.SubjectId-1].SubjectName}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="eserr" style="visibility:hidden" class="alert alert-danger">
+                <span>The Target Exam Shedule isn't published!</span>
+            </div>
+        </div>
+
+    </div>
+</div>

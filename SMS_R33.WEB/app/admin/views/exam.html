@@ -1,0 +1,180 @@
+﻿<div ng-controller="examCtrl">
+    <div class="row" style="margin-top:20px">
+        <div class="col-md-3">
+            <h4>Add New Exam Year</h4>
+            <form>
+                <div class="form-horizontal">
+                    <div class="input-group">
+                        <select ng-model="model.examYearTable.ExamYearDate" class="form-control">
+                            <option value="" disabled selected>Exam Year</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                        </select>
+                        <span class="input-group-btn" style="width:0;">
+                            <button class="btn btn-primary " type="button" ng-click="addExamYear()">Add</button>
+                        </span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-9">
+            <div class="text-right" style="padding:10px;">
+                <a href="#/insertResult" class="btn btn-primary text-right">Add New Result</a>
+            </div>
+            
+            <h4>Exam Year List: </h4>
+            <a ng-repeat="ey in model.examyears|orderBy:'ExamYearDate'" class="btn btn-default" href="" ng-click="selectForD(ey)">{{ey.ExamYearDate}}</a>
+            <button class="btn btn-danger " type="button" ng-click="deleteY()">Delete</button>
+        </div>
+
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Add New Exam</h4>
+            <p>Select terget Options as:</p>
+            <ol class="breadcrumb">
+                <li>Exam Year</li>
+                <li>Exam Term</li>
+                <li>Exam Date</li>
+                <li>Subject</li>
+               
+            </ol>
+        </div>
+    </div>
+    <!--Add EXAM-->
+    <div class="row">
+        <div class="col-md-6">
+            <form>
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <div class="col-sm-4" style="padding-bottom:10px">
+                            <select class="form-control" ng-model="model.examTable.ExamYearId" ng-options="e.ExamYearId as e.ExamYearDate for e in model.examyears" ng-change="selectedEYId()" required>
+                                <option value="" disabled selected> Exam Year</option>
+                            </select>
+                        </div>
+
+                        <div class="col-sm-4" style="padding-bottom:10px">
+                            <select class="form-control" ng-model="model.examTable.ExamTermId" ng-options="e.ExamTermId as e.ExamTermName for e in model.target.examterms" ng-change="selectedETId()" required>
+                                <option value="" disabled selected>Exam Term</option>
+                            </select>
+                        </div>
+
+                        <div class="col-sm-4" style="padding-bottom:10px">
+                            <select class="form-control" ng-model="model.examTable.ClassId" ng-options="c.ClassId as c.ClassName for c in model.target.classes" ng-change="selectedCId()" required>
+                                <option value="" disabled selected>Class</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                </div>
+            </form>
+            <hr />
+            <div>
+                <h4>Selectd Exam Shedule </h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Subject</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="e in model.temp.examps">
+                            <td>{{e.ExamDate|date}}</td>
+                            <td>{{model.subjects[e.SubjectId-1].SubjectName}}</td>
+                            <td>
+                                <button class="btn btn-primary" type="button" ng-click="examEdit(e)">Edit</button>
+
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <form>
+                <div class="form-horizontal">
+                    <div class="form-group">
+                       
+                        <div class="col-sm-6" style="padding-bottom:10px">
+                            <input type="date" ng-model="model.examTable.ExamDate" placeholder="Exam Date" class="form-control" />
+                        </div>
+                        <div class="col-sm-6 input-group" style="padding-bottom:10px">
+                            <select class="form-control" ng-model="model.examTable.SubjectId" ng-options="s.SubjectId as s.SubjectName for s in model.subjects" ng-change="selectedSId()" required>
+                                <option value="" disabled selected>Subject</option>
+                            </select>
+                            <span class="input-group-btn" style="width:0">
+                                <button class="btn btn-primary" type="button" ng-click="addExam()" id="add" style="visibility:hidden">Add</button>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="text-center">
+                        <span id="err" style="color:red; visibility:hidden" > Target Subject is alrady exist</span>
+                    </div>         
+                </div>
+            </form>
+            
+                <div class="col-md-12">
+                    <strong>Selected Subject: </strong><br />
+                    <ul class="list-group">
+                        <li ng-repeat="s in model.tempSubjectsId" class="list-group-item">{{s.ExamDate|date}}:&nbsp; {{model.subjects[s.SubjectId-1].SubjectName}}</li>
+                    </ul>
+                    <div class="text-left">
+                        <button class="btn btn-primary" ng-click="refresh()"> <span class="glyphicon glyphicon-refresh">&nbsp;</span>Refresh</button>
+                    </div>
+                    
+                </div>
+               
+
+           
+            <hr />
+        </div>
+
+
+    </div>
+    <!--examEditModal-->
+    <div class="modal fade " role="dialog" id="examEditModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class=" modal-header" style="background-color:#14267a; color:white;">
+                    <button class="close" ng-click="cancel()">&times;</button>
+                    <h2><img src="../../../images/header_logo.png" width="50" style="margin-bottom:15px" /> Edit Exam Shedule</h2>
+
+                </div>
+                <div class="modal-body">
+                    <form name="examEditForm" novalidate>
+
+                        <div class="form-group" ng-class="{'has-error':studentForm.StudentName.$invalid && !studentForm.StudentName.$pristine}">
+                            <label class="control-label"> Date </label>
+                            <input type="text" class="form-control" name="date" ng-model="update.ExamDate" required />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Subject</label>
+                            <select class="form-control" ng-model="update.SubjectId" ng-options="s.SubjectId as s.SubjectName for s in model.subjects" required>
+                                <option value="" disabled selected>Subject</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" form="studentForm" class="btn btn-success" ng-click="updatexam()" ng-disabled="studentForm.$invalid">Update</button>
+                    <button class="btn btn-danger" ng-click="ecancel()">Cancel</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>

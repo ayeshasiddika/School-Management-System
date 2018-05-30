@@ -1,0 +1,38 @@
+﻿
+/*body {
+	margin:0;
+	padding:0;
+	height:100%;
+    min-height:100%;
+	position:relative;
+}*/
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 1;
+
+}
+.person:hover {
+    border-color: #f1f1f1;
+    
+}
+.mybox {
+background-color:#ffffff;
+color:#808080;
+padding:10px;
+border-radius:10px;
+margin-top:15px;
+}
+#mytopfooter {
+
+}
+#footer {
+    background-color: #F3F3F3;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}

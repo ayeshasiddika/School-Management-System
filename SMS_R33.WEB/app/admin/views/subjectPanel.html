@@ -1,0 +1,89 @@
+﻿<div ng-controller="subjectPanelCtrl">
+    <div class="col-md-12">
+        <h4>Add New Subject</h4>
+        <form name="subForm">
+            <div class="form-horizontal">
+                <div class="input-group">
+                    <input type="text" ng-model="current.SubjectName" class="form-control" placeholder="Add Subject" required/>
+                    <span class="input-group-btn" style="width:0;">
+                        <button class="btn btn-primary " type="button" ng-click="addSub()" form="subForm">Add</button>
+                    </span>
+                    &nbsp; <span id="suberr" style="color:red; visibility:hidden;"></span>
+                </div>
+            </div>
+        </form>
+    </div>
+    <hr />
+    <div class="col-md-6" style="margin-left:50px;">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Subject Name</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="sub in model.subjects">
+                    <td>{{sub.SubjectName}}</td>
+                    <td>
+                        <button class="btn btn-warning" ng-click="subEdit(sub)"><span class="glyphicon glyphicon-edit"></span></button>
+                        <button class="btn btn-danger" ng-click="subDelete(sub)"><span class="glyphicon glyphicon-trash"></span></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--Update-->
+
+    <div class="modal fade " role="dialog" id="subEditModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" >
+                <div class=" modal-header" >
+                    <button class="close" ng-click="cancel()" data-dismiss="modal">&times;</button>
+                    <h2>Update Subject</h2>
+                </div>
+                <div class="modal-body">
+                    <form name="subtEditForm" class="form-horizontal">
+
+                        <div class="form-group" ng-class="{'has-error':subtEditForm.subname.$invalid && !subtEditForm.subname.$pristine}">
+                            <label class="col-sm-4 control-label">Name  :</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" name="subname" ng-model="update.SubjectName" required />
+                                <div ng-show="subtEditForm.subname.$error.required && !subtEditForm.subname.$pristine" class="help-block">Name is required!</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button form="studentEditForm" class="btn btn-warning" ng-click="updateSubject(sub)" ng-disabled="subtEditForm.$invalid">Update</button>
+                    <button class="btn btn-danger" ng-click="ucancel()">Cancel</button>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--ResultDelete-->
+
+
+    <div class="modal fade" role="dialog" id="subDeleteModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button class="close" ng-click="cancel()">&times;</button>
+                    <h3>Are you sure to delete ? </h3>
+                    <hr />
+                    <div class="text-right">
+                        <button class="btn btn-danger" ng-click="ConSubjectDelete()"><i class="fa fa-check" aria-hidden="true"></i> &nbsp; Yes</button>
+                        <button class="btn btn-default" ng-click="dcancel()"><i class="fa fa-times" aria-hidden="true"></i> &nbsp; No</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

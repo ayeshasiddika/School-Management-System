@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html ng-app="schoolAdmin">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - School Admin</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    @RenderSection("style", required: false)
+</head>
+<body ng-controller="adminCtrl">
+    <!-- start NaveBar-->
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: #121224; color: white; ">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*<img src="~/img/longlg.png" width="200" style="padding:7px 0 7px 0;" />*@
+            </div>
+           
+            @*<div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Admin")</li>
+                    </ul>
+                    <div class="nav navbar-nav navbar-right" ng-show="auth.authenticated">
+                        <div class="navbar-text">{{auth.username}}</div>
+                        <button class="btn navbar-btn" ng-click="signout()">Log Out signout</button>
+                    </div>
+                    <div class="nav navbar-nav navbar-right" ng-show="!auth.authenticated">
+                        <button class="btn navbar-btn" ng-click="showLoginForm()">Log In</button>
+
+                    </div>
+                </div>*@
+            <ul class="nav navbar-nav navbar-right">
+                <li ng-show="auth.authenticated"><a><span class="glyphicon glyphicon-user"></span>&nbsp;{{auth.username}} </a></li>
+                <li ng-show="auth.authenticated"><a href="" ng-click="signout()"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+                <li ng-show="!auth.authenticated"><a href="" ng-click="showLoginForm()"><span class="glyphicon glyphicon-log-in"></span> Log In</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End NaveBar-->
+    <div class="row">
+        <div class="col-md-2" style="background-color: #1b3a60; padding-bottom:100%;" ng-show="auth.authenticated">
+            <!-- Nave Bar sided-->
+            <div class="list-group mynb">
+                <div class="list-group-item active" style="background-color:#42c30e; color:#851111">
+                    <i class="glyphicon glyphicon-user" aria-hidden="true"></i>&nbsp; <strong>Admin Panel</strong>
+                </div>
+                <a href="#/student" class="list-group-item" style="background-color:#4ae90b;"><i class="fa fa-graduation-cap fa-lg" aria-hidden="true"></i>&nbsp; Student Panel</a>
+                <a href="#/examData" class="list-group-item" style="background-color:#4ae90b;"><i class=" fa fa-pencil-square-o fa-lg" aria-hidden="true"></i>&nbsp; Exam Panel</a>
+                <a href="#/insertResult" class="list-group-item" style="background-color:#4ae90b;"><i class=" fa fa-file-text-o fa-lg" aria-hidden="true"></i>&nbsp; Result Panel</a>
+                <a href="#/classresult" class="list-group-item" style="background-color:#4ae90b;"><i class=" fa fa-file-text fa-lg" aria-hidden="true"></i>&nbsp; Result List</a>
+                <a href="#/admissionlist" class="list-group-item" style="background-color:#4ae90b;"><i class=" fa fa-address-book-o fa-lg" aria-hidden="true"></i>&nbsp; Admission Panel</a>
+                <a href="#/subjectPanel" class="list-group-item" style="background-color:#4ae90b;"><i class=" fa fa-book fa-lg" aria-hidden="true"></i>&nbsp; Subject Panel</a>
+                <a href="#/teacherspanel" class="list-group-item" style="background-color:#4ae90b;"><i class=" fa fa-user fa-lg" aria-hidden="true"></i>&nbsp; Teacher Panel</a>
+
+            </div>
+            <!-- /. NAV SIDE  -->
+        </div>
+        <div class="col-md-10">
+            <div class="container-fluid body-content">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" tabindex="-1" role="dialog" id="loginModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header modal-header-primary" style="background-color:#116571;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" style="color:yellow;"><span class="glyphicon glyphicon-log-in"></span> Log in</h4>
+                </div>
+                <div class="modal-body">
+
+                    @*<p>Please provide your UserName & Password</p>*@
+                    <div class="alert alert-danger" ng-show="loginError">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4>Error</h4>
+                        <p>{{loginError}}</p>
+                    </div>
+                    <form name="loginForm">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="fa fa-user-secret fa-lg"></span></span>
+                                <input type="email" class="form-control" ng-model="loginModel.username" required placeholder="Email" />
+                            </div>
+
+
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="fa fa-key fa-lg"></span></span>
+                                <input type="password" class="form-control" ng-model="loginModel.password" required placeholder="Password" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-success" form="loginForm" ng-disabled="loginForm.$invalid" ng-click="signin()">Log in</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,113 @@
+﻿@{
+    ViewBag.Title = "School";
+}
+
+<ng-view />
+@section scripts{
+    <script src="~/app/angular.js"></script>
+    <script src="~/app/dirPagination.js"></script>
+    <script src="~/Scripts/angular-route.js"></script>
+
+    <script>
+        angular.module("myApp", ['ngRoute', 'angularUtils.directives.dirPagination'])
+            .constant("admissionsUrl", "http://localhost:7643/odata/Admissions")
+            .constant("classesUrl", "http://localhost:7643/odata/Classes")
+            .constant("examYearsUrl", "http://localhost:7643/odata/ExamYears")
+            .constant("examTermsUrl", "http://localhost:7643/odata/ExamTerms")
+            .constant("subjectsUrl", "http://localhost:7643/odata/Subjects")
+            .constant("studentsUrl", "http://localhost:7643/odata/Students")           
+            .constant("examsUrl", "http://localhost:7643/odata/Exams")
+            .constant("resultsUrl", "http://localhost:7643/odata/Results")
+            .constant("teachersUrl", "http://localhost:7643/odata/Teachers")
+
+
+        .config(function ($locationProvider) {
+            $locationProvider.hashPrefix('');
+        })
+   .config(function ($routeProvider) {
+       $routeProvider.when("/", {
+           templateUrl: "/app/views/home.html"
+       });
+       $routeProvider.when("/admission", {
+           templateUrl: "/app/views/admission.html"
+       });
+       $routeProvider.when("/applynow", {
+           templateUrl: "/app/views/applynow.html"
+       });
+       $routeProvider.when("/examshedule", {
+           templateUrl: "/app/views/examshedule.html"
+       });
+       $routeProvider.when("/teacherList", {
+           templateUrl: "/app/views/teacherList.html"
+       });
+       $routeProvider.when("/contactus", {
+           templateUrl: "/app/views/contactus.html"
+       });
+       $routeProvider.when("/aboutus", {
+           templateUrl: "/app/views/aboutus.html"
+       });
+       $routeProvider.when("/hmessage", {
+           templateUrl: "/app/views/hmessage.html"
+       });
+       $routeProvider.when("/examResult", {
+           templateUrl: "/app/views/examResult.html"
+       });
+       $routeProvider.otherwise({
+           templateUrl: "/app/views/home.html"
+       });
+       //$locationProvider.html5Mode(true);
+   })
+        .controller("myCtrl", function ($scope, $http) {
+
+            $scope.current = null;
+            $scope.temp = null;
+            $scope.result = null;
+            var selectedClass = null;
+            var selectedApplyClass = null;
+
+            $scope.model = {};
+
+            $scope.selectClass = function (student) {
+                selectedClass = student.ClassId;
+            }
+            $scope.classFilterFn = function (student) {
+                if (selectedClass == null) {
+                    $("#warning").css("visibility", "initial")
+                }
+                else {
+                    $("#warning").css("visibility", "hidden");
+                }
+                return selectedClass == student.ClassId;
+            }
+            $scope.activeClass = function (student) {
+
+                return student.ClassId == selectedClass ? "active" : "";
+            }
+
+            //Apply
+            $scope.selectApplyClass = function (student) {
+                selectedApplyClass = student.ApplyClass;
+
+            }
+            $scope.classApplyFilterFn = function (student) {
+                if (selectedApplyClass == null) {
+                    $("#warning").css("visibility", "initial")
+                }
+                else {
+                    $("#warning").css("visibility", "hidden");
+                }
+                return selectedApplyClass == null | selectedApplyClass == student.ApplyClass;
+            }
+            $scope.activeApplyClass = function (student) {
+
+                return student.ApplyClass == selectedApplyClass ? "active" : "";
+            }
+        });
+    </script>
+    <script src="~/app/services/apiVerbSvc.js"></script>
+    <script src="~/app/controler/admissionCtrl.js"></script>
+    <script src="~/app/controler/examResulCtrl.js"></script>
+    <script src="~/app/filters/filter.js"></script>
+    <script src="~/app/controler/examsheduleCtrl.js"></script>
+    <script src="~/app/controler/teacherCtrl.js"></script>
+}

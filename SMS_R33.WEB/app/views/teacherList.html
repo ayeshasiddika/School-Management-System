@@ -1,0 +1,38 @@
+﻿<div ng-controller="teacherCtrl">
+    <h3 style="text-align:center; padding-bottom:20px;">Teacher's List</h3>
+    <div class="col-md-3">
+        <div class="list-group">
+            <a href="#/hmessage" class="list-group-item">Headmaster's Message</a>
+            <a href="#/aboutus" class="list-group-item">About Us</a>
+            <a href="#/teacherList" class="list-group-item">Teacher</a>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <!--<div class="col-md-4" ng-repeat="t in model.teachers">
+            <figure class="figure" style="text-align:center">
+                <img src="/img/Teacher/T1.jpg" class="img-thumbnail" alt="Cinque Terre" width="130" style="margin-bottom:5px;">
+                <figcaption class="figure-caption">
+                    <span style="text-align:center;"><b>{{t.TeacherName}}</b></span><br />
+                    <span style="text-align:center;">{{t.Designation}}</span><br />
+                    <span style="text-align:center;">{{t.EcademicQualification}}</span><br />
+                    <span>Joining Date: </span> <span style="text-align:center;">{{t.JoiningDate|date}}</span><br />
+                    <span>Cell No: </span> <span style="text-align:center;">{{t.CellNo}}</span><br />
+                </figcaption>
+            </figure>
+        </div>-->
+        <div class="col-md-4" ng-repeat="t in model.teachers" >
+            <div class="thumbnail" style="padding-right:0px; margin-bottom:30px;  background-color:#f5f5f5">  
+                <div class="caption text-center">
+                    <a href=""><img src={{t.Photo}} height="120"  class="img-rounded"></a>
+                    <h3>{{t.TeacherName}}</h3>
+                    <span>{{t.Designation}}</span><br />
+                    <span>Qualification: </span><span>{{t.EcademicQualification}}</span><br />
+                    <span>Joining Date: </span> <span>{{t.JoiningDate|date}}</span><br />
+                    <span>Cell No: </span> <span>{{t.CellNo}}</span><br />
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+</div>

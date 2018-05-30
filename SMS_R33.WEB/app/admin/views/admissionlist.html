@@ -1,0 +1,78 @@
+﻿<div ng-controller="admissionlistCtrl">
+    <div class="row" style="margin-top:20px;">
+        <div class="col-md-6">
+            <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
+                <input type="text" ng-model="search" class="form-control" id="inlineFormInputGroup" placeholder="Search Here....">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <ul class="pagination">
+                <li ng-repeat="s in model.admissions|unique:'ApplyClass'">
+                    <a href="" class="list-group-item " ng-class="activeApplyClass(s)"
+                       ng-click="selectApplyClass(s)">{{s.ApplyClass}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row" style="margin-top:20px;">  
+        <div class="col-md-12">
+            <hr />
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th class="text-center" ng-click="sortData('ApplyClass')">
+                            Apply For
+                            <div ng-class="getClass('ApplyClass')"></div>
+                        </th>
+                        <th class="text-center" ng-click="sortData('Name')">
+                            Name
+                            <div ng-class="getClass('Name')"></div>
+                        </th>
+                        <th>Father's Name</th>
+                        <th>Mother's Name</th>
+                        <th>Current Address</th>
+                        <th>Permanent Address</th>
+                        <th>Phone Number</th>
+                        <th>Email</th>
+                        <th>Date of Birth</th>
+                        <th>Gender</th>
+                        <th>.....</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat= "l in model.admissions|filter:search|filter:classApplyFilterFn|orderBy:sortColumn:reverseSort">
+                        <td>{{l.ApplyClass}}</td>
+                        <td>{{l.Name}}</td>
+                        <td>{{l.FathersName}}</td>
+                        <td>{{l.MothersName}}</td>
+                        <td>{{l.CurrentAddress}}</td>
+                        <td>{{l.PermanentAddress}}</td>
+                        <td>{{l.PhoneNumber}}</td>
+                        <td>{{l.Email}}</td>
+                        <td>{{l.DOB|date }}</td>
+                        <td>{{l.Gender}}</td>
+                        <td>
+                            <button class="btn btn-danger" ng-click="admissiondelete(l)"><span class="glyphicon glyphicon-trash"></span></button>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+            
+        </div>
+    </div>
+    
+    <div class="modal fade" role="dialog" id="admissionDeleteModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h3>Are you sure to delete ? </h3>
+                    <button class="btn btn-danger" ng-click="ConAdmission()">Delete</button>
+                    <button class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

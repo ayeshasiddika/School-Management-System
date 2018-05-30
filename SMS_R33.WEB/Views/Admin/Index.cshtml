@@ -1,0 +1,185 @@
+﻿@{
+    ViewBag.Title = "School";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<ng-view />
+@section scripts{
+    <script src="~/app/angular.js"></script>
+    <script src="~/app/dirPagination.js"></script>
+    <script src="~/Scripts/angular-route.js"></script>
+
+    <script>
+        angular.module("schoolAdmin", ['ngRoute', 'angularUtils.directives.dirPagination'])
+            .constant("admissionsUrl", "http://localhost:7643/odata/Admissions")
+            .constant("classesUrl", "http://localhost:7643/odata/Classes")
+            .constant("examYearsUrl", "http://localhost:7643/odata/ExamYears")
+            .constant("examTermsUrl", "http://localhost:7643/odata/ExamTerms")
+            .constant("subjectsUrl", "http://localhost:7643/odata/Subjects")
+            .constant("studentsUrl", "http://localhost:7643/odata/Students")
+            .constant("examsUrl", "http://localhost:7643/odata/Exams")
+            .constant("resultsUrl", "http://localhost:7643/odata/Results")
+            .constant("teachersUrl", "http://localhost:7643/odata/Teachers")
+
+
+        .config(function ($locationProvider) {
+            $locationProvider.hashPrefix('');
+        })
+   .config(function ($routeProvider) {
+       // $routeProvider.hashPrefix('');
+
+       $routeProvider.when("/adminpanel", {
+           templateUrl: "/app/admin/views/adminpanel.html"
+       });
+
+       $routeProvider.when("/admissionlist", {
+           templateUrl: "/app/admin/views/admissionlist.html"
+       });
+
+       $routeProvider.when("/student", {
+           templateUrl: "/app/admin/views/student.html"
+       });
+       $routeProvider.when("/examResult", {
+           templateUrl: "/app/admin/views/examResult.html"
+       });
+       $routeProvider.when("/examData", {
+           templateUrl: "/app/admin/views/exam.html"
+       });
+       $routeProvider.when("/insertResult", {
+           templateUrl: "/app/admin/views/insertResult.html"
+       });
+       $routeProvider.when("/examList", {
+           templateUrl: "/app/admin/views/examList.html"
+       });
+       $routeProvider.when("/home", {
+           templateUrl: "/app/admin/views/student.html"
+       });
+       $routeProvider.when("/subjectPanel", {
+           templateUrl: "/app/admin/views/subjectPanel.html"
+       });
+       $routeProvider.when("/classresult", {
+           templateUrl: "/app/admin/views/classresult.html"
+       });
+       $routeProvider.when("/teacherspanel", {
+           templateUrl: "/app/admin/views/teacherspanel.html"
+       });
+       $routeProvider.otherwise({
+           templateUrl: "/app/admin/views/adminpanel.html"
+       });
+
+       //$locationProvider.html5Mode(true);
+   })
+        .controller("adminCtrl", function ($scope, $http, authStore, loginSvc, $location) {
+
+            $scope.current = null;
+            $scope.temp = null;
+            $scope.result = null;
+            var selectedClass = null;
+            var selectedApplyClass = null;
+
+            $scope.model = {};
+
+            $scope.selectClass = function (student) {
+                selectedClass = student.ClassId;
+            }
+            $scope.classFilterFn = function (student) {
+                if (selectedClass == null) {
+                    $("#warning").css("visibility", "initial")
+                }
+                else {
+                    $("#warning").css("visibility", "hidden");
+                }
+                return selectedClass == student.ClassId;
+            }
+            $scope.activeClass = function (student) {
+                return student.ClassId == selectedClass ? "active" : "";
+            }
+
+            //Apply
+
+            $scope.selectApplyClass = function (student) {
+                selectedApplyClass = student.ApplyClass;
+
+            }
+            $scope.classApplyFilterFn = function (student) {
+                if (selectedApplyClass == null) {
+                    $("#warning").css("visibility", "initial")
+                }
+                else {
+                    $("#warning").css("visibility", "hidden");
+                }
+                return selectedApplyClass == null | selectedApplyClass == student.ApplyClass;
+            }
+            $scope.activeApplyClass = function (student) {
+
+                return student.ApplyClass == selectedApplyClass ? "active" : "";
+            }
+            $scope.showLoginForm = function () {
+                $("#loginModal").modal("show");
+            }
+
+            $scope.signin = function () {
+                loginSvc.signin($scope.loginModel.username, $scope.loginModel.password)
+                .then(function (result) {
+
+                    authStore.save(result.data.userName, result.data.access_token);
+                    $scope.auth = authStore.get();
+                    $scope.loginModel = null;
+                    $scope.loginError = "";
+                    $("#loginModal").modal("hide");
+                    $location.path("/home");
+
+                }, function (respose) {
+                    console.log(respose);
+                    $scope.loginError = respose.data.error_description;
+                })
+            }
+            $scope.loginError = "";
+            $scope.loginModel = {};
+            $scope.model = {};
+
+            $scope.auth = authStore.get();
+            // console.log($scope.auth);
+            if ($scope.auth.authenticated)
+                $location.path("/home");
+            $scope.showLoginForm = function () {
+                $("#loginModal").modal("show");
+            }
+            $scope.signin = function () {
+                loginSvc.signin($scope.loginModel.username, $scope.loginModel.password)
+                .then(function (result) {
+
+                    authStore.save(result.data.userName, result.data.access_token);
+                    $scope.auth = authStore.get();
+                    $scope.loginModel = null;
+                    $scope.loginError = "";
+                    $("#loginModal").modal("hide");
+                    $location.path("/home");
+                }, function (respose) {
+                    console.log(respose);
+                    $scope.loginError = respose.data.error_description;
+                })
+            }
+            $scope.signout = function () {
+                authStore.remove();
+                $scope.auth = {};
+                $location.path("/login");
+            }
+        });
+    </script>
+
+    <script src="~/app/admin/controler/admissionlistCtrl.js"></script>
+    <script src="~/app/admin/controler/examCtrl.js"></script>
+    <script src="~/app/admin/controler/insertResultCtrl.js"></script>
+    <script src="~/app/admin/filters/filter.js"></script>
+    <script src="~/app/admin/services/apiVerbSvc.js"></script>
+    <script src="~/app/admin/controler/studentPanelCtrl.js"></script>
+    <script src="~/app/admin/controler/adminpanelCtrl.js"></script>
+    <script src="~/app/admin/controler/subjectPanelCtrl.js"></script>
+
+    <script src="~/app/admin/services/authStore.js"></script>
+    <script src="~/app/admin/services/loginSvc.js"></script>
+    <script src="~/app/admin/controler/classRCtrl.js"></script>
+    <script src="~/app/admin/controler/teacherpanelCtrl.js"></script>
+}
+

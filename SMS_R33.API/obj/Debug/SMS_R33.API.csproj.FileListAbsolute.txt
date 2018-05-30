@@ -1,0 +1,513 @@
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\SMS_R33.API.dll.config
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\SMS_R33.API.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\SMS_R33.API.pdb
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Antlr3.Runtime.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.SqlServer.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Google.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Web.Infrastructure.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Newtonsoft.Json.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Owin.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Net.Http.Formatting.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Helpers.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Owin.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.WebHost.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Mvc.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Optimization.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Razor.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Deployment.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Razor.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\WebGrease.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.SqlServer.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Newtonsoft.Json.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Net.Http.Formatting.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Helpers.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.WebHost.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Mvc.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Optimization.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Razor.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Deployment.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Razor.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Antlr3.Runtime.pdb
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Google.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Owin.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.pdb
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.Migration.Token.DbCreateUser.resources
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.csproj.GenerateResource.Cache
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.Edm.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.OData.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Spatial.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Cors.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Cors.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.OData.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.Edm.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.OData.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Spatial.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Cors.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.OData.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\de\Microsoft.Data.Edm.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\es\Microsoft.Data.Edm.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\it\Microsoft.Data.Edm.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\de\Microsoft.Data.OData.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\es\Microsoft.Data.OData.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\fr\Microsoft.Data.OData.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\it\Microsoft.Data.OData.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ja\Microsoft.Data.OData.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ko\Microsoft.Data.OData.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ru\Microsoft.Data.OData.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\de\System.Spatial.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\es\System.Spatial.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\fr\System.Spatial.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\it\System.Spatial.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ja\System.Spatial.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ko\System.Spatial.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ru\System.Spatial.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hans\System.Spatial.resources.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\SMS_R33.API.dll.config
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\SMS_R33.API.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\SMS_R33.API.pdb
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Antlr3.Runtime.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.SqlServer.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.Edm.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.OData.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Newtonsoft.Json.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Owin.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Net.Http.Formatting.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Spatial.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Cors.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Helpers.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Cors.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.OData.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Owin.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.WebHost.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Mvc.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Optimization.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Razor.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\WebGrease.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.SqlServer.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.Edm.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.OData.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Net.Http.Formatting.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Spatial.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Cors.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.OData.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Newtonsoft.Json.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Helpers.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.WebHost.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Mvc.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Optimization.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Razor.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Antlr3.Runtime.pdb
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Owin.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\de\System.Spatial.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\es\System.Spatial.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\fr\System.Spatial.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\it\System.Spatial.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ja\System.Spatial.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ko\System.Spatial.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ru\System.Spatial.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.csprojResolveAssemblyReference.cache
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.pdb
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.Migration.Token.DbCreateUser.resources
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.csproj.GenerateResource.Cache
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\SMS_R33.API.dll.config
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\SMS_R33.API.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\SMS_R33.API.pdb
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Antlr3.Runtime.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.SqlServer.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Core.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.Edm.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.OData.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Cookies.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Facebook.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Google.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.OAuth.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Twitter.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Web.Infrastructure.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Newtonsoft.Json.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Owin.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Net.Http.Formatting.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Spatial.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Cors.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Helpers.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Cors.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.OData.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Owin.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.WebHost.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Mvc.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Optimization.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Razor.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Deployment.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Razor.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\WebGrease.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.SqlServer.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.Edm.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.OData.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Net.Http.Formatting.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Spatial.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Cors.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.OData.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Newtonsoft.Json.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Helpers.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.WebHost.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Mvc.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Optimization.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Razor.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Deployment.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Razor.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Antlr3.Runtime.pdb
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Core.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Facebook.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Cookies.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.OAuth.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Google.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Twitter.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Owin.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\de\Microsoft.Data.Edm.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\es\Microsoft.Data.Edm.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\fr\Microsoft.Data.Edm.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\it\Microsoft.Data.Edm.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ja\Microsoft.Data.Edm.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ko\Microsoft.Data.Edm.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ru\Microsoft.Data.Edm.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\de\Microsoft.Data.OData.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\es\Microsoft.Data.OData.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\fr\Microsoft.Data.OData.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\it\Microsoft.Data.OData.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ja\Microsoft.Data.OData.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ko\Microsoft.Data.OData.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ru\Microsoft.Data.OData.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\de\System.Spatial.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\es\System.Spatial.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\fr\System.Spatial.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\it\System.Spatial.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ja\System.Spatial.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ko\System.Spatial.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ru\System.Spatial.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hans\System.Spatial.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hant\System.Spatial.resources.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.pdb
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.Migration.Token.DbCreateUser.resources
+H:\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.csproj.GenerateResource.Cache
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\SMS_R33.API.dll.config
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\SMS_R33.API.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\SMS_R33.API.pdb
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Antlr3.Runtime.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.SqlServer.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.Edm.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.OData.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Google.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Web.Infrastructure.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Newtonsoft.Json.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Owin.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Net.Http.Formatting.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Spatial.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Cors.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Helpers.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Cors.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.OData.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Owin.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.WebHost.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Mvc.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Optimization.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Razor.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Deployment.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Razor.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\WebGrease.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.SqlServer.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.Edm.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.OData.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Net.Http.Formatting.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Spatial.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Cors.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.OData.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Newtonsoft.Json.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Helpers.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.WebHost.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Mvc.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Optimization.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Razor.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Deployment.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Razor.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Antlr3.Runtime.pdb
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Google.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Owin.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\de\Microsoft.Data.Edm.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\es\Microsoft.Data.Edm.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\fr\Microsoft.Data.Edm.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\it\Microsoft.Data.Edm.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ja\Microsoft.Data.Edm.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ko\Microsoft.Data.Edm.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ru\Microsoft.Data.Edm.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\de\Microsoft.Data.OData.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\es\Microsoft.Data.OData.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\fr\Microsoft.Data.OData.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\it\Microsoft.Data.OData.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ja\Microsoft.Data.OData.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ko\Microsoft.Data.OData.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ru\Microsoft.Data.OData.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\de\System.Spatial.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\es\System.Spatial.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\fr\System.Spatial.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\it\System.Spatial.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ja\System.Spatial.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ko\System.Spatial.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ru\System.Spatial.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hans\System.Spatial.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hant\System.Spatial.resources.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.csprojResolveAssemblyReference.cache
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.pdb
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.Migration.Token.DbCreateUser.resources
+F:\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.csproj.GenerateResource.Cache
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\SMS_R33.API.dll.config
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\SMS_R33.API.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\SMS_R33.API.pdb
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Antlr3.Runtime.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.SqlServer.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Core.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.Edm.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.OData.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Cookies.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Facebook.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Google.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.OAuth.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Twitter.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Web.Infrastructure.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Newtonsoft.Json.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Owin.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Net.Http.Formatting.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Spatial.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Cors.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Helpers.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Cors.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.OData.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Owin.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.WebHost.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Mvc.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Optimization.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Razor.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Deployment.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Razor.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\WebGrease.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\EntityFramework.SqlServer.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.Edm.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Data.OData.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Net.Http.Formatting.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Spatial.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Cors.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.OData.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Newtonsoft.Json.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Helpers.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.WebHost.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Mvc.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Optimization.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Razor.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Deployment.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.WebPages.Razor.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Antlr3.Runtime.pdb
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Core.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Facebook.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Cookies.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.OAuth.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Google.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.Twitter.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\System.Web.Http.Owin.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\de\Microsoft.Data.Edm.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\es\Microsoft.Data.Edm.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\it\Microsoft.Data.Edm.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\de\Microsoft.Data.OData.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\es\Microsoft.Data.OData.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\fr\Microsoft.Data.OData.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\it\Microsoft.Data.OData.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ja\Microsoft.Data.OData.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ko\Microsoft.Data.OData.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ru\Microsoft.Data.OData.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\de\System.Spatial.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\es\System.Spatial.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\fr\System.Spatial.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\it\System.Spatial.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ja\System.Spatial.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ko\System.Spatial.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\ru\System.Spatial.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hans\System.Spatial.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\bin\zh-Hant\System.Spatial.resources.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.pdb
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.csprojResolveAssemblyReference.cache
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.Migration.Token.DbCreateUser.resources
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.API\obj\Debug\SMS_R33.API.csproj.GenerateResource.Cache

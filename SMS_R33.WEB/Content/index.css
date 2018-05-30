@@ -1,0 +1,148 @@
+﻿body {
+    margin:0px;
+    padding:0;
+    /*width:100%;*/
+}
+
+.container{
+    /*width:100%;*/
+}
+
+#logo h2{
+    color:white;
+    font-family:Verdana;
+
+}
+#header_area{
+    margin-top:56px;
+    height:235px;
+    background-color:#105997;
+}
+
+#logo{
+    height:155px;
+}
+#logo img{
+    padding-left:450px;
+    padding-top:30px;
+}
+#logo h2{
+    margin:0;
+    padding:0;
+}
+#menu{
+    margin:10px auto;
+    background:#105997;
+}
+#left_menu{
+    float:left;
+}
+#left_menu ul li{
+    list-style:none;
+    display:inline;
+}
+
+#left_menu ul li a{
+    text-decoration:none;
+    color:#c0cedb;
+    font-size:17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:25px;
+}
+#left_menu ul li a:hover{
+    color:white;
+}
+#log{
+    float:right;
+    margin-right:20px;
+}
+#log ul li{
+    list-style:none;
+    display:inline;
+}
+#log ul li a{
+    text-decoration:none;
+    color:#c0cedb;
+    font-size:18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:25px;
+    font-weight:normal;
+}
+#log ul li a:hover{
+    color:white;
+}
+
+#content_area{
+    height:300px;
+    background:#F7F7F7;
+}
+#content_left{
+    margin-top:30px;
+}
+#content_left h3{
+    font-weight:bold;
+}
+#allStudent{
+    height:100px;
+    margin-top:30px;
+    margin-bottom:30px;
+    background-color:#b6ff00;
+}
+#allStudent h4{
+    padding-top:30px;
+}
+
+#allTeacher{
+    height:100px;
+    background-color:#105997;
+}
+#allTeacher h4{
+    padding-top:30px;
+
+}
+#contact_area{
+    height:350px;
+    background:#12334f;
+    padding-top:85px;
+}
+#address{
+    border-right:1px solid #c0cedb;
+}
+#middle{
+    border-right:1px solid #c0cedb;
+}
+
+#middle img{
+    padding-left:45px;
+    margin-top:20px;
+}
+#middle ul li{
+    list-style:none;
+    display:inline;
+}
+
+#middle ul li a{
+    text-decoration:none;
+    color:#c0cedb;
+    font-size:17px;
+    float:left;
+    margin-left:17px;
+}
+#social_icon{
+    
+    margin-top:50px;
+}
+#right_side{
+    margin-top:35px;
+}
+#right_side a{
+    text-decoration:none;
+    padding-top:3px;
+}
+#footer{
+    height:65px;
+    background:#152736;
+}
+#footer p{
+    padding-top:20px;
+}

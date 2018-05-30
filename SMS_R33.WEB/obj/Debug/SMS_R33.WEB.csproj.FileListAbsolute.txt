@@ -1,0 +1,130 @@
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\SMS_R33.WEB.dll.config
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\SMS_R33.WEB.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\SMS_R33.WEB.pdb
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Antlr3.Runtime.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Microsoft.Web.Infrastructure.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Newtonsoft.Json.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Helpers.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Mvc.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Optimization.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Razor.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Deployment.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Razor.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\WebGrease.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Helpers.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Mvc.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Optimization.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Razor.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Deployment.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Razor.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Antlr3.Runtime.pdb
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Newtonsoft.Json.xml
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\obj\Debug\SMS_R33.WEB.csprojResolveAssemblyReference.cache
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\obj\Debug\SMS_R33.WEB.dll
+E:\Round_33_SMS\SMS_R33\SMS_R33.WEB\obj\Debug\SMS_R33.WEB.pdb
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\SMS_R33.WEB.dll.config
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\SMS_R33.WEB.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\SMS_R33.WEB.pdb
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Antlr3.Runtime.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Newtonsoft.Json.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Helpers.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Mvc.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Optimization.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Razor.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\WebGrease.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Helpers.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Mvc.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Optimization.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Razor.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Antlr3.Runtime.pdb
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Newtonsoft.Json.xml
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\obj\Debug\SMS_R33.WEB.csprojResolveAssemblyReference.cache
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\obj\Debug\SMS_R33.WEB.dll
+C:\Users\Lab1_14\Desktop\Round_33_SMS\SMS_R33\SMS_R33.WEB\obj\Debug\SMS_R33.WEB.pdb
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\SMS_R33.WEB.dll.config
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\SMS_R33.WEB.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\SMS_R33.WEB.pdb
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Antlr3.Runtime.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Microsoft.Web.Infrastructure.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Newtonsoft.Json.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Helpers.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Mvc.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Optimization.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Razor.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Deployment.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Razor.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\WebGrease.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Helpers.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Mvc.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Optimization.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Razor.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Deployment.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Razor.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Antlr3.Runtime.pdb
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Newtonsoft.Json.xml
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\obj\Debug\SMS_R33.WEB.csprojResolveAssemblyReference.cache
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\obj\Debug\SMS_R33.WEB.dll
+H:\Round_33_SMS\SMS_R33\SMS_R33.WEB\obj\Debug\SMS_R33.WEB.pdb
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\SMS_R33.WEB.dll.config
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\SMS_R33.WEB.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\SMS_R33.WEB.pdb
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Antlr3.Runtime.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Microsoft.Web.Infrastructure.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Newtonsoft.Json.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Helpers.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Mvc.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Optimization.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Razor.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Deployment.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Razor.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\WebGrease.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Helpers.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Mvc.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Optimization.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Razor.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Deployment.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Razor.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Antlr3.Runtime.pdb
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Newtonsoft.Json.xml
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\obj\Debug\SMS_R33.WEB.csprojResolveAssemblyReference.cache
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\obj\Debug\SMS_R33.WEB.dll
+F:\Round_33_SMS\SMS_R33\SMS_R33.WEB\obj\Debug\SMS_R33.WEB.pdb
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\SMS_R33.WEB.dll.config
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\SMS_R33.WEB.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\SMS_R33.WEB.pdb
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Antlr3.Runtime.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Microsoft.Web.Infrastructure.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Newtonsoft.Json.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Helpers.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Mvc.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Optimization.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Razor.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Deployment.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Razor.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\WebGrease.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Helpers.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Mvc.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Optimization.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.Razor.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Deployment.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\System.Web.WebPages.Razor.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Antlr3.Runtime.pdb
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\bin\Newtonsoft.Json.xml
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\obj\Debug\SMS_R33.WEB.dll
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\obj\Debug\SMS_R33.WEB.pdb
+E:\My Work\Project\Round_33_SMS\SMS_R33\SMS_R33.WEB\obj\Debug\SMS_R33.WEB.csprojResolveAssemblyReference.cache

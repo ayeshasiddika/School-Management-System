@@ -1,0 +1,177 @@
+﻿<div ng-controller="studentPanelCtrl">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text-right" style="margin-bottom:10px; padding-top:15px">
+                <button class="btn btn-success" ng-click="addStudent()">Add New</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="list-group">
+                <h2 class="list-group-item-heading">Class</h2>
+                <a href="#" class="list-group-item " ng-class="activeClass(student)"
+                   ng-repeat="student in model.students|unique:'ClassId'|orderBy:'ClassId'" ng-click="selectClass(student)">{{student.Class.ClassName}}</a>
+            </div>
+        </div>
+        <div class="col-md-9">
+
+            <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
+                <input type="text" ng-model="search" class="form-control" id="inlineFormInputGroup" placeholder="Search Here....">
+            </div>
+            <br />
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th class="text-center" ng-click="sortData('StudentName')">
+                            Student's Name
+                            <div ng-class="getClass('StudentName')"></div>
+                        </th>
+                        <th class="text-center" ng-click="sortData('ClassRoll')">
+                            Class Roll
+                            <div ng-class="getClass('ClassRoll')"></div>
+                        </th>
+                        <th class="text-center">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="student in model.students|filter:classFilterFn|filter:search|orderBy:sortColumn:reverseSort">
+                        <td class="text-center">{{student.StudentName}}</td>
+                        <td class="text-center">{{student.ClassRoll}}</td>
+                        <td class="text-center">
+                            <button class="btn btn-warning" ng-click="sEdit(student)"><span class="glyphicon glyphicon-edit"></span></button>
+                            <button class="btn btn-danger" ng-click="studentdelete(student)"><span class="glyphicon glyphicon-trash"></span></button>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+            <div id="warning" class="alert alert-info">
+                <div class="text-center">
+                    <h3><strong class="glyphicon glyphicon-warning-sign "></strong> Select a Class</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--studentAddModal-->
+    <div class="modal fade " role="dialog" id="studentModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-repeat:no-repeat; background-position:center ;">
+                <div class=" modal-header" style="background-color:#14267a; color:white;">
+                    <button class="close" ng-click="cancel()">&times;</button>
+                    <h2><img src="../../../images/header_logo.png" width="50" style="margin-bottom:15px" /> Add New Student</h2>
+                </div>
+                <div class="modal-body">
+                    <form name="studentForm" class="form-horizontal" novalidate>
+
+                        <div class="form-group" ng-class="{'has-error':studentForm.StudentName.$invalid && !studentForm.StudentName.$pristine}">
+                            <label class="col-sm-4 control-label"> Name  *</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" name="StudentName" ng-model="current.StudentName" placeholder="Full Name" required ng-maxlength="50" />
+                                <div ng-show="studentForm.StudentName.$error.required && !studentForm.StudentName.$pristine" class="help-block">Student Name is required!</div>
+                                <div ng-show="studentForm.StudentName.$error.maxlength" class="help-block">Student Name too long...</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class=" col-sm-4 control-label">Apply for  *</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" ng-model="current.ClassId" ng-options="c.ClassId as c.ClassName for c in model.classes" required ng-change="getRoll()">
+                                    <option value="" selected disabled>Select Class...</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        <div class="form-group" ng-class="{'has-error':studentForm.ClassRoll.$invalid && !studentForm.ClassRoll.$pristine}">
+                            <label class="col-sm-4 control-label">Class Roll  *</label>
+                            <div class="col-sm-8" style="margin-top:7px">
+                                <!--<input type="text" class="form-control" name="ClassRoll" ng-model="current.ClassRoll" placeholder="Roll no." required />
+            <div ng-show="studentForm.ClassRoll.$error.required && !studentForm.ClassRoll.$pristine" class="help-block">Roll number is required!</div>-->
+                                <span>{{current.ClassRoll}}</span>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" form="studentForm" class="btn btn-success" ng-click="insertStudent()" ng-disabled="studentForm.$invalid">Save</button>
+                    <button class="btn btn-danger" ng-click="cancel()">Cancel</button>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--studentEditModal-->
+    <div class="modal fade " role="dialog" id="studentEditModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-repeat:no-repeat; background-position:center ;">
+                <div class=" modal-header" style="background-color:#2e3c0a; color:white;">
+                    <button class="close" ng-click="cancel()">&times;</button>
+                    <h2><img src="../../../images/header_logo.png" width="60" style="margin-bottom:15px" /> Update Student</h2>
+                </div>
+                <div class="modal-body">
+                    <form name="studentEditForm" class="form-horizontal">
+
+                        <div class="form-group" ng-class="{'has-error':studentEditForm.ename.$invalid && !studentEditForm.ename.$pristine}">
+                            <label class="col-sm-4 control-label">Student's Full Name  *</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" name="ename" ng-model="current.StudentName" required />
+                                <div ng-show="studentEditForm.ename.$error.required && !studentEditForm.ename.$pristine" class="help-block">Student Name is required!</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class=" col-sm-4 control-label">Class you want to apply for  *</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" ng-model="current.ClassId" ng-options="c.ClassId as c.ClassName for c in model.classes"></select>
+                            </div>
+
+                        </div>
+                        <div class="form-group" ng-class="{'has-error':studentEditForm.eroll.$invalid && !studentEditForm.eroll.$pristine}">
+                            <label class="col-sm-4 control-label">Class Roll*</label>
+                            <div class="col-sm-8" style="margin-top:7px">
+                                <!--<input type="text" class="form-control" name="eroll" ng-model="current.ClassRoll" required />
+                                <div ng-show="studentEditForm.eroll.$error.required && !studentEditForm.eroll.$pristine" class="help-block">Roll number is required!</div>-->
+                                <span>{{current.ClassRoll}}</span>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button form="studentEditForm" class="btn btn-warning" ng-click="updateStudent(student)" ng-disabled="studentEditForm.$invalid">Update</button>
+                    <button class="btn btn-danger" ng-click="cancel()">Cancel</button>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--studentDelete-->
+    <div class="modal fade" role="dialog" id="studentDeleteModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button class="close" ng-click="cancel()">&times;</button>
+                    <h3>Are you sure to delete ? </h3>
+                    <hr />
+                    <div class="text-right">
+                        <button class="btn btn-danger" ng-click="ConStudentDelete()"><i class="fa fa-check" aria-hidden="true"></i> &nbsp; Yes</button>
+                        <button class="btn btn-default" ng-click="cancel()"><i class="fa fa-times" aria-hidden="true"></i> &nbsp; No</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>

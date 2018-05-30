@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - School User</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @*<base href="/" />*@
+    @RenderSection("style", required: false)
+</head>
+<body ng-controller="myCtrl">
+    <!-- start NaveBar-->
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:#121224; color:#e42a17;">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*<img src="~/img/logo.png" width="35" style="padding-top:7px;" />*@
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" style="padding-top:6px;">
+                    <li><a href="#/"><i class="fa fa-home fa-lg"></i>&nbsp;</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="">Admission<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#/admission">Admission Process</a></li>
+                            <li><a href="#/applynow">Apply Now</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#/examshedule">Exam Schedule</a></li>
+                    <li><a href="#/examResult">Result</a></li>
+                    <li><a href="#/teacherList">Teacher</a></li>
+                    <li><a href="#/contactus">Contact Us</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="/Admin/Index"><span class="glyphicon glyphicon-user"></span> Admin</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- End NaveBar-->
+    <!-- start HeaderSection-->
+    @*<div class="row" style="margin-top:20px">
+            <div class="col-md-8 col-md-offset-4">
+                <img src="/img/bLogo.png" width="400" />
+                <br />
+            </div>
+        </div>*@
+    <!-- End HeaderSection-->
+    @RenderSection("slider", required: false)
+
+    <div class="container body-content">
+        @RenderBody()
+
+
+    </div>
+    @*<footer>
+            <div style="background-color:#dedede; color:#808080; margin-top:30px; padding:20px;">
+                <div class="row">
+                    <div class="container-fluid body-content">
+
+                        <div class="col-md-4">
+                            <b>Importent links</b>
+                            <hr />
+                            <ul class="list-group" style="list-style:circle">
+                                <li><a href="#/">Home</a></li>
+                                <li><a href="#/teacher">Teacher</a></li>
+                                <li><a href="#/contactus">Contact Us</a></li>
+                            </ul>
+                            <hr />
+                        </div>
+                        <div class="col-md-4">
+
+                        </div>
+                        <div class="col-md-4">
+                            <p><b>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address</b></p>
+
+                            <address class="badge alert-info">
+                                Delport HIGH SCHOOL<br />
+                                234/3, Mohammadpur, Dkaka
+                            </address>
+                            <hr />
+                            <div style="float:right">
+                                <br />
+                                <br />
+                                <br />
+
+                                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-3x" style="color:#1b63b0;" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square fa-3x" style="color:#1b63b0;" aria-hidden="true"></i></a>
+                                <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus-square fa-3x" style="color:#ff0000;" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div style="background-color: #1b3a60; color: white; " class="panel-footer">
+                <div class="col-md-12">
+                    <p class="text-center">&copy;All right reserved by  Delport HIGH SCHOOL 2017</p>
+                </div>
+            </div>
+        </footer>*@
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

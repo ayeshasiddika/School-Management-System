@@ -1,0 +1,184 @@
+﻿<div ng-controller="insertResultCtrl">
+    <!--INSERT RESULT CONTROLER-->
+    <div class="row" style="margin-top:10px;">
+        
+        <div class="col-md-12">
+            <div class="text-right" style="padding:10px;">
+                <a href="#/examData" class="btn btn-primary text-right">Add New Exam</a>
+            </div>
+            <h4>Add Result in the Result Table </h4>
+            <p>Select terget Options as:</p>
+            <ol class="breadcrumb">
+                <li>Class</li>
+                <li>Roll</li>
+                <li >Exam Year</li>
+                <li>Exam Term</li>
+                <li>Subject</li>
+                <li>Mark</li>
+            </ol>
+            <hr />
+            <form name="markForm">
+                <div class="form-group">
+                   
+                    <div class="col-sm-3" style="padding-bottom:10px">
+                        <select class="form-control" ng-model="model.temp.ClassId" ng-options="c.ClassId as c.ClassName for c in model.classes" ng-change="insertselectedId()" required>
+                            <option value="" disabled selected>Select the Class</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3" style="padding-bottom:10px">
+                        <select class="form-control" ng-model="model.current.StudentId" ng-options="s.StudentId as s.ClassRoll for s in model.target.students" ng-change="selectedSId()" required>
+                            <option value="" disabled selected>Select the Class Roll</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3" style="padding-bottom:10px">
+                        <select class="form-control" ng-model="model.current.ExamYearId" ng-options="e.ExamYearId as e.ExamYearDate for e in model.target.examyears|unique:'ExamYearDate'|orderBy:'ExamYearDate'" ng-change="selectedEYear()" required>
+                            <option value="" disabled selected>Select the Exam Year</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3" style="padding-bottom:10px">
+                        <select class="form-control" ng-model="model.current.ExamTermId" ng-options="e.ExamTermId as e.ExamTermName for e in model.target.examterms|unique:'ExamTermName'" ng-change="getEIforSub()" required>
+                            <option value="" disabled selected>Select the Exam Term</option>
+                        </select>
+                    </div>
+
+                </div>
+                <br />
+                <div class="form-group">
+                   
+                    <!--<div class="col-sm-3" style="padding-bottom:10px">
+                        <p class="lead">Add Result:</p>
+                    </div>-->
+                    <div class="col-sm-3" style="padding-bottom:10px">
+                        <select class="form-control" ng-model="model.current.SubjectId" ng-options="s.SubjectId as s.SubjectName for s in model.target.subjects|unique:'SubjectName'" ng-change="getExamId()" required>
+                            <option value="" disabled selected>Select subject</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3 input-group" id="addresult" style="visibility:hidden" ng-class="{'has-error':markForm.mark.$invalid && !markForm.mark.$pristine}">
+                        <input type="number" placeholder="Mark" class="form-control" name="mark" ng-model="model.current.Mark" min="0" max="100"/>
+                        <div ng-show="markForm.mark.$error.required && !markForm.mark.$pristine" class="help-block">Mark is required!</div>
+                        <span class="input-group-btn" style="width:0">
+                            <button class="btn btn-primary" ng-click="addResult()" ng-hide="err" ng-disabled="markForm.$invalid">Add</button>
+                        </span>
+                    </div>
+
+                    <span id="resulterr" style="color:red; visibility:hidden" ng-model="err">Result is exist!</span>
+                </div>
+      
+            </form>
+            <hr /> 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div>
+                <h4>Selected Results</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Subjects</th>
+                            <th>Mark</th>
+                            <th>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="r in model.target.results|orderBy:'SubjectId'">
+                            <td>{{r.SubjectId}}</td>
+                            <td>{{model.subjects[r.SubjectId-1].SubjectName}}</td>
+                            <td>{{r.Mark}}</td>
+                            <td>
+                                <button class="btn btn-warning" ng-click="resEdit(r)"><span class="glyphicon glyphicon-edit"></span></button>
+                                <button class="btn btn-danger" ng-click="resdelete(r)"><span class="glyphicon glyphicon-trash"></span></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-6">
+          
+            <div class="text-left">
+                <button type="button" class="btn btn-info" ng-click="addNewStudent()">New Result</button> &nbsp;
+                <button type="button" class="btn btn-info" ng-click="reFresh()"><span class="glyphicon glyphicon-refresh"></span></button>
+                <hr />
+                Class: <strong>{{model.classes[model.temp.ClassId-1].ClassName}}</strong><br />
+                Class Roll: <strong>{{model.students[model.current.StudentId-1].ClassRoll}}</strong><br />
+                Student Name: <strong>{{model.students[model.current.StudentId-1].StudentName}}</strong><br />
+                Exam Year: <strong>{{model.examyears[model.current.ExamYearId-1].ExamYearDate}}</strong><br />
+                Exam Term: <strong>{{model.examterms[model.current.ExamTermId-1].ExamTermName}}</strong><br />
+
+
+
+            </div>
+            <table class="table table-striped">
+                <tr ng-repeat="r in model.targetresults">
+                    <td>{{model.subjects[r.SubjectId-1].SubjectName}}</td>
+                    <td>{{r.Mark}}</td>
+                </tr>
+            </table>
+
+
+        </div>
+    </div>
+   
+
+    <!--ResultEditModal-->
+
+    <div class="modal fade " role="dialog" id="resEditModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class=" modal-header">
+                    <button class="close" ng-click="cancel()">&times;</button>
+                    <h2><img src="../../../images/header_logo.png " width=" 50" style="margin-bottom:15px" />Edit Result</h2>
+                </div>
+                <div class="modal-body">
+                    <form name="resEditForm" novalidate>
+
+                        <div class="form-group" ng-class="{'has-error':resEditForm.StudentName.$invalid && !resEditForm.StudentName.$pristine}">
+                            <label class="control-label">Subject</label>
+                            <select class="form-control" ng-model="update.SubjectId" ng-options="s.SubjectId as s.SubjectName for s in model.subjects" required>
+                                <option value="" disabled selected>Subject</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Mark</label>
+                            <input type="number" placeholder="Mark" class="form-control" name="mark" ng-model="update.Mark" required />
+
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" form="studentForm" class="btn btn-success" ng-click="updateres()" ng-disabled="studentForm.$invalid">Update</button>
+                    <button class="btn btn-danger" ng-click="rescancel()">Cancel</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--ResultDelete-->
+
+
+    <div class="modal fade" role="dialog" id="resDeleteModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button class="close" ng-click="cancel()">&times;</button>
+                    <h3>Are you sure to delete ? </h3>
+                    <hr />
+                    <div class="text-right">
+                        <button class="btn btn-danger" ng-click="ConResultDelete()"><i class="fa fa-check" aria-hidden="true"></i> &nbsp; Yes</button>
+                        <button class="btn btn-default" ng-click="cancel()"><i class="fa fa-times" aria-hidden="true"></i> &nbsp; No</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+

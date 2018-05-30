@@ -1,0 +1,118 @@
+﻿
+<div ng-controller="examResultCtrl">
+    <div class="row">
+        <h3>Exam Result</h3>
+        <p >Please provide your Exam and Corresponding information</p>
+        <hr />
+        <div class="col-md-5 col-md-offset-3" ng-show="selectOption">
+            
+            <form name="selectCategory">
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">Class</label>
+                    <div class="col-sm-8" style="padding-bottom:10px">
+                        <select class="form-control" ng-model="result.ClassId" ng-options="c.ClassId as c.ClassName for c in model.classes" ng-change="rselectedId()" required>
+                            <option value="" disabled selected>Select the Class</option>
+                        </select>
+                    </div>
+                    
+                </div>
+                <div class="form-group" >
+                    <label class="col-sm-4 control-label">Class Roll</label>
+
+                    <div class="col-sm-8" style="padding-bottom:10px">
+                        <select class="form-control" ng-model="result.StudentId" ng-options="s.StudentId as s.ClassRoll for s in model.students" required>
+                            <option value="" disabled selected>Select the Class Roll</option>
+                        </select>
+                    </div>
+                </div>
+              
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">Exam Year</label>
+                    
+                    <div class="col-sm-8" style="padding-bottom:10px">
+                        <select class="form-control" ng-model="result.ExamYearId" ng-options="m.ExamYearId as m.ExamYearDate for m in model.examYears|unique:'ExamYearDate'" ng-change="selectexamYear()" required>
+                            <option value="" disabled selected>Select the Exam Year</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">Exam Term</label>
+                    
+                    <div class="col-sm-8" style="padding-bottom:20px">
+                        <select class="form-control" ng-model="result.ExamTermId" ng-options="m.ExamTermId as m.ExamTermName for m in model.examTerms|unique:'ExamTermName'" required>
+                            <option value="" disabled selected>Select the Exam Term</option>
+                        </select>
+                    </div>
+                </div>
+                    <div class="form-group text-center">
+                        <button class="btn btn-success" ng-click="getResult()" ng-disabled="selectCategory.$invalid">Submit</button>
+                    </div>
+            </form>
+        </div>
+        <div ng-show="studentResult" id="marksheet">
+            <div class="col-md-2">
+                <div class="input-group">
+                    <button class="btn btn-primary" ng-click="backTo()"><span class="glyphicon glyphicon-backward"></span> Back</button> &nbsp;
+                    <button class="btn btn-default" ng-click="printToCart()" title="Print"><span class="glyphicon glyphicon-print"></span> </button>
+                </div>
+              
+
+            </div>
+            <div class="col-md-8">
+                <div id="msheet">
+                    <div ng-show="model.results">
+                        <header class="text-center" style="background-color: #f5f5f5; padding: 5px 0; margin-bottom: 10px; border-radius: 15px 15px 0 0">
+                            <h3>{{model.results[0].ExamTerm.ExamTermName}} Exam Marksheet of {{model.results[0].ExamYear.ExamYearDate}}</h3>
+                            <hr />
+                        </header>
+
+                        <div class="text-center">
+                            <strong>Student's Information:</strong><br />
+                        </div>
+                        <em>Name: </em><strong>{{model.results[0].Student.StudentName}}</strong><br />
+                        <em>Class: </em><strong>{{model.classes[model.results[0].Student.ClassId-1].ClassName}}</strong><br />
+                        <em>Class Roll: </em><strong>{{model.results[0].Student.ClassRoll}}</strong>
+
+                        <table class="table table-border table-striped">
+                            <caption><h4>Subject-Wise Mark/Grade Sheet</h4></caption>
+                            <thead>
+                                <tr>
+                                    <th>Subject</th>
+                                    <th>Mark</th>
+                                    <th>Grade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="r in model.results">
+                                    <td>{{r.Subject.SubjectName}}</td>
+                                    <td>{{r.Mark}}</td>
+                                    <td>{{r.Mark|gradeFN}}</td>
+                                </tr>
+                                <tr ng-show="model.results" class="panel-primary">
+                                    <th>Total Marks/Grade</th>
+                                    <th>{{model.results|sumFN }}</th>
+                                    <th>{{model.results|averageGradeFN }}</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--<h2>{{model.results[0].Exam.ExamYear}}</h2>-->
+                        <!--<h3>{{r.Student.StudentName}}</h3>
+        <h3>{{r.Student.ClassRoll}}</h3>
+        <h3>{{r.Exam.SubjectId}}</h3>
+        <h3>{{r.Mark}}</h3>-->
+                        <hr />
+                    </div>
+                    <div id="resultwarning" class="alert alert-info">
+                        <div class="text-center">
+                            <h3><strong class="glyphicon glyphicon-warning-sign "></strong> Please Select the valied Class, Class Roll, Exam Year and Exam Term!</h3>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        
+    </div>
+</div>

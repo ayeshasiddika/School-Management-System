@@ -1,0 +1,71 @@
+﻿<div ng-controller="classRCtrl">
+    <div class="row" style="margin-top:20px">
+        <div class="col-md-12">
+            <h4>Student's Result</h4>
+            <p>Show all students' result fo individule class</p>
+            <div class="alert alert-success" ng-show="succMsg">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4>Success</h4>
+
+                <div class="text-danger">{{succMsg}}</div>
+            </div>
+            <form name="markForm">
+                <div class="form-group">
+                    <div class="col-sm-3" style="padding-bottom:10px">
+                        <select class="form-control" ng-model="model.current.ClassId" ng-options="c.ClassId as c.ClassName for c in model.classes" ng-change="selectedClassId()" required>
+                            <option value="" disabled selected>Select the Class</option>
+                        </select>
+                    </div>        
+                    <div class="col-sm-3" style="padding-bottom:10px">
+                        <select class="form-control" ng-model="model.temp.ExamYearId" ng-options="e.ExamYearId as e.ExamYearDate for e in model.target.examyears|unique:'ExamYearDate'|orderBy:'ExamYearDate'" ng-change="selectedEYear()" required>
+                            <option value="" disabled selected>Select the Exam Year</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3" style="padding-bottom:10px">
+                        <select class="form-control" ng-model="model.temp.ExamTermId" ng-options="e.ExamTermId as e.ExamTermName for e in model.target.examterms|unique:'ExamTermName'" ng-change="selectedETerm()" required>
+                            <option value="" disabled selected>Select the Exam Term</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3" style="padding-bottom:10px">
+                        <select class="form-control" ng-model="model.temp.SubjectId" ng-options="s.SubjectId as s.SubjectName for s in model.target.subjects|unique:'SubjectName'" ng-change="getExamId()" required>
+                            <option value="" disabled selected>Select subject</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+           
+            
+            <table class="table" id="table" style="visibility:hidden">
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Student Roll</th>
+                        <th>Mark</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="s in model.target.results">
+                        <td>{{s.StudentName}}</td>
+                        <td>{{model.students[s.StudentId-1].ClassRoll}}</td>
+                        <!--<td style="width:180px"><input required type="text" ng-model="s.Mark" class="form-control" style="width:100px;display:inline" /> <span class="glyphicon glyphicon-exclamation-sign" ng-show="s.Mark==0" title="No marks found!" style="color:red"></span></td>-->
+                        <td> {{s.Mark|absent}}</td>
+
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <!--<tr>
+                        <td colspan="3" class="text-right" style="padding-right:30px">
+                            <input type="submit" value="Save All" class="btn btn-primary" ng-disabled="entryForm.$invalid" ng-click="saveResults()" />
+                        </td>
+                    </tr>-->
+                </tfoot>
+            </table>
+            <div id="eserr" style="visibility:hidden" class="alert alert-danger">
+                <span>The Target Exam Shedule isn't published!</span>
+            </div>
+        </div>
+    </div>
+</div>
